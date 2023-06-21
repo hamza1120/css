@@ -1,0 +1,59 @@
+
+
+
+
+.title {
+  color: grey;
+  text-align: center;
+}
+.navbar {
+  position: relative;
+  z-index: 999;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar ul {
+    display: flex;
+    justify-content: end;
+  list-style-type: none;
+  margin: 10px;
+  padding: 15px;
+  background-color: black;
+}
+.navbar li a {
+  color: aliceblue;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+#accueil {
+    text-align: center;
+  background-color: grey;
+  width: 13.5%;
+}
+#a-propos{
+    text-align: center;
+    background-color: grey;
+  width: 13.5%;
+}
+.bienvenue{display: flex;}
+#accueil{
+    margin-right: 37px;
+}
+#portfolio{
+
+    margin-top: 20px;
+    display:flex;
+    column-gap: 150px;
+    background-color: burlywood;
+}
+.contact{
+    color: crimson;
+}
+.tableau{
+    background-color: hotpink;
+}
+
+
+
